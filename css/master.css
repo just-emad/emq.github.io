@@ -1,0 +1,114 @@
+/* Cascading stylesheet for the website */
+
+/* Text inside these asterisks and slashes are comments for humans */
+
+a {
+    color: #00A8E8; /* Bright yellow */
+    text-decoration: none; /* Remove underline by default */
+}
+
+a:hover {
+    color: #0077B6; /* Hover color for links */
+    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+}
+
+body {
+    background: #000; /* Muted blue gradient */
+    color: black; /* Set the text color to black here */
+    font-family: Arial, Helvetica, sans-serif; /* Set the font here */
+    text-align: center; /* Set the text alignment here */
+}
+
+footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    color: #F5F5F5; /* White */
+}
+
+h1.banner {
+    background: #000; /* Matte black background color */
+    color: #fff; /* Text color for readability */
+    text-align: center; /* Center align the text */
+    padding: 20px; /* Add padding for spacing */
+    font-family: 'Serif', 'Times New Roman', serif, cursive; /* Specify the custom font */
+}
+
+h1.banner02 {
+    font-size: 70px; /* Adjust the font size as needed */
+    letter-spacing: 10px; /* Adjust the letter spacing as needed */
+    text-transform: uppercase; /* Convert text to uppercase */
+    margin: 0; /* Remove default margin */
+}
+
+h1 {
+    color: #FFFFFF; /* Metallic blue */
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+    font-family: 'Serif', 'Times New Roman', cursive;
+    font-weight: bold;
+}
+
+h2 {
+    color: #075AAB; /* Electric orange */
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    /* Set the text color and margins */
+}
+
+h3 {
+    color: #CCCCCC;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+h4 {
+    color: #CCCCCC;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+h5 {
+    color: #B0B0B0;
+    margin-top: 0.5rem;
+}
+
+hr {
+    background-color: #c0c0c0; /* Silver/Grey */
+    border: none;
+    height: 1px; /* Adjust the height as needed */
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+li {
+    color: #F5F5F5; /* White or a shade of light grey */
+}
+
+/* This controls how the bullet points in the resume page look */
+ul {
+    list-style-type: disc; /* You can change to other types as needed */
+    list-style-color: #ff9900; /* Bright yellow */
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+code {
+    color: #F5F5F5;
+}
+
+#selectContainer {
+    text-align: center;
+}
+
+#domainSelect {
+    width: 150px; /* Adjust the width as needed */
+}
+
+#username {
+    display: none;
+}
